@@ -1,0 +1,51 @@
+.Form {
+  width: 90%;
+  max-width: 650px;
+  margin: 4em auto;
+
+  h2 {
+    text-align: center;
+    margin: 1.5em 0;
+  }
+
+  div {
+    width: 100%;
+    position: relative;
+    margin-top: 2em;
+    padding-top: 0.5em;
+
+    label {
+      position: absolute;
+      font-size: 0.85em;
+      top: 0;
+      left: 1em;
+      background-color: #ffffff;
+      padding: 0 0.5em;
+    }
+
+    textarea,
+    select {
+      width: 100%;
+      display: block;
+      outline: none;
+      border: 1px solid #dedede;
+      border-radius: 7px;
+      padding: 1em;
+    }
+
+    .errorMessage {
+      font-size: 0.75em;
+      color: red;
+    }
+  }
+
+  button {
+    outline: none;
+    border: none;
+    border-radius: 7px;
+    padding: 1em;
+    width: 100%;
+    margin-top: 2em;
+    cursor: pointer;
+  }
+}
